@@ -4,15 +4,6 @@
     padding: 0;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-
 body {
     width: 100vw;
     height: 100vh;
@@ -35,17 +26,12 @@ ul {
     padding: 100px;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .main-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    height: 50%;
-}
-
-.reviews {
-    height: 50%;
 }
 
 .reviews-list {
@@ -53,16 +39,16 @@ ul {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    font-size: 12px;
 }
 
 .review {
     background-color:hsl(300, 43%, 22%)
     ;
-    display: column;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding: 20px;
-    justify-content: space-between;
-    width: 30%;
-    height: 150px;
 }
 
 
@@ -86,7 +72,7 @@ p {
     justify-content: center;
 }
 
-.reviews img {
+.reviews-list img {
     width: 30px;
     height: 30px;
     border-radius: 100px;
