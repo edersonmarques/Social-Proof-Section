@@ -1,130 +1,32 @@
 * {
     box-sizing: border-box;
-    
     margin: 0;
-}
-
-body {
-    width: 100vw;
-    height: 100vh;
-    font-family: 'League Spartan';
-}
-
-.container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 80px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: url("./images/bg-pattern-top-desktop.svg");
-    background-repeat: no-repeat;
-}
-
-
-#rates {
-    width: 100%;
-    height: 50%;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10%;
-    
-}
-
-.rates-explanation {
-    width: 30%;
-}
-
-
-#reviews {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-}
-
-#reviews img {
-    width: 40px;
-    border-radius: 100px;
-}
-
-.user-review {
-    width: 350px;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 40px;
-    background-color: hsl(300, 43%, 22%);
-    border-radius: 10px;
-}
-
-ul {
     list-style: none;
     padding: 0;
 }
 
-h1 {
-    font-size: 50px;
-    margin-bottom: 20px;
-    color: hsl(300, 43%, 22%);
-}
-
-.rates-explanation p {
-    color: hsl(303, 10%, 53%);
-}
-
-p {
-    font-size: 18px;
-}
-
-
-.user-info {
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: url(./images/bg-pattern-top-desktop.svg) left top no-repeat, url(./images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-.review-two {
-    margin-top: 20px;
-}
-
-
-.review-three {
-    margin-top: 40px;
-}
-
-.rates-list {
-    width: 60%;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.user-rate {
-    background-color: hsl(300, 24%, 96%);
-    width: 50%;
-    height: 50px;
-    border-radius: 10px;
-    display: flex;
-    padding: 20px;
-    gap: 30px;
+    justify-content: center;
     align-items: center;
 }
 
-
-.rate-two {
-    margin-left: 40px;
+main {
+    width: 1080px;
+    height: 80%;
 }
 
-.rate-three {
-    margin-left: 80px;
+section {
+    width: 100%;
+    height: 50%;
 }
+
+section:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
