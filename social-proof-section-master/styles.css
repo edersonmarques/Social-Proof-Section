@@ -24,7 +24,7 @@ section {
     height: 50%;
 }
 
-section:first-of-type {
+.context {
     display: flex;
     justify-content: center;
     align-items: center;
