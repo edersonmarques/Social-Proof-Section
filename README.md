@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/edersonmarques/Social-Proof-Section)
-- Live Site URL: [Add live site URL here](https://edersonmarques.github.io/Social-Proof-Section/)
+- Solution URL: https://github.com/edersonmarques/Social-Proof-Section
+- Live Site URL: https://edersonmarques.github.io/Social-Proof-Section
 
 ### Built with
 
