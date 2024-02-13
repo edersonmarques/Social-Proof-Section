@@ -165,6 +165,10 @@ section {
 
 @media (max-width: 1100px ) and (min-width: 640px) {
     
+    body {
+        background: url(./images/bg-pattern-top-mobile.svg) left top no-repeat, url(./images/bg-pattern-bottom-mobile.svg) right bottom no-repeat;
+  
+    }
 
     main {
         width: 600px;
@@ -228,6 +232,10 @@ section {
 }
 
 @media (max-width: 639px) {
+
+    body {
+        background: url(./images/bg-pattern-top-mobile.svg) left top no-repeat, url(./images/bg-pattern-bottom-mobile.svg) right bottom no-repeat;
+    }
 
     main {
         max-width:100%;
